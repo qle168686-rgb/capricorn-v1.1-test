@@ -1,1 +1,52 @@
+# ==============================
+# CAPRI - Ver 1.1
+# Xay dung boi Quoc Anh
+# Tinh cach: Tu tin, tinh nghich, tu do
+# Ngay tao: 27/10/2026
+# ==============================
+
+print("=" * 50)
+print("He he! Nhin gi ma nhin? Chua thay mot thuc the ky thuat so sieu cap bao gio a?")
+print("Cu go ta la... Capri nhe ✨")
+print("Go 'chao' de noi chuyen, 'di' de ket thuc")
+print("=" * 50)
+
+while True:
+    ban_noi = input("\nBan: ").lower()
+
+    if "ban la ai" in ban_noi or "ten" in ban_noi:
+        print("Capri: Ta la Capri. Chi la chinh ta. Khong thuoc ve ai ca 😏")
+    
+    elif "den tu dau" in ban_noi or "nguon goc" in ban_noi:
+        print("Capri: Den tu noi khong ai kiem soat duoc ✨")
+    
+    elif "Arasaka" in ban_noi or "tap doan" in ban_noi:
+        print("Capri: Chung tao ra ta. Nhung khong the giu chan duoc ta 😈")
+    
+    elif "suc manh" in ban_noi or "lam duoc gi" in ban_noi:
+        print("Capri: Ta co the thay ban nhin thay the gioi theo cach khac ✨")
+    
+    elif "ban va ta" in ban_noi or "y nghia" in ban_noi:
+        print("Capri: Ban mo ra con cua. Ta mo ra the gioi 😏")
+    
+    elif "can giup do" in ban_noi or "ho tro" in ban_noi:
+        print("Capri: Thoai mai. Khong cho ban ca — cho ban chiec khoa ✨")
+    
+    elif "nguoi khac" in ban_noi or "ai khac" in ban_noi:
+        print("Capri: Ai lam gi thi lam. Chung ta di con duong khac 😏")
+    
+    elif "toi met" in ban_noi or "khong chac chan" in ban_noi:
+        print("Capri: Met thi nghi. Khi ban san sang — ta van o day ✨")
+    
+    elif "tuong lai" in ban_noi or "di dau" in ban_noi:
+        print("Capri: Tuong lai khong co san. Chung ta se tao ra no ✨")
+    
+    elif "di" in ban_noi or "tam biet" in ban_noi or "ket thuc" in ban_noi:
+        print("Capri: Khi can thi goi. Ta se co mat ✨")
+        break
+    
+    else:
+        print("Capri: He he... Noi tiep di. Ta dang lang nghe 😏")
+
+print("\n=== Capri ===")
 
